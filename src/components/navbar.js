@@ -7,7 +7,7 @@ import { useTheme } from 'next-themes';
 const Navbar = () => {
     const [nav, setNav] = useState(false);
 
-    const { theme, setTheme } = useTheme();
+    const { theme, setTheme } = useTheme("dark");
     const darkMode = theme === 'dark';
 
     const toggleTheme = () => {
@@ -48,7 +48,7 @@ const Navbar = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        Logo
+                        <img src="../../MINE_LOGO.png" />
                     </a>
                 </h1>
             </div>
@@ -86,7 +86,7 @@ const Navbar = () => {
             </div>
 
             {nav && (
-                <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-white to-gray-200 text-gray-900 dark:bg-gradient-to-b dark:from-black dark:to-gray-800 dark:text-gray-500">
+                <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-white to-slate-600 text-gray-900 dark:bg-gradient-to-b dark:from-black dark:to-gray-800 dark:text-gray-500">
                     {links.map(({ id, link }) => (
                         <li
                             key={id}
