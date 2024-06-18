@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaMoon } from "react-icons/fa";
 import { BsSunFill } from 'react-icons/bs';
 import { useTheme } from 'next-themes';
+import logoSrc from '../../public/MINE_LOGO1.png';
+import Image from "next/image";
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -48,7 +50,7 @@ const Navbar = () => {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <img src="../../MINE_LOGO.png" />
+                     <Image src={logoSrc} alt="Logo" width={60} height={20} />
                     </a>
                 </h1>
             </div>
