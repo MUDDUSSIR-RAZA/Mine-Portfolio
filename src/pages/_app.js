@@ -1,5 +1,4 @@
-// pages/_app.js
-
+import Hero from "@/components/helper/hero";
 import Navbar from "@/components/navbar";
 import "@/styles/globals.css";
 import { ThemeProvider } from "next-themes";
@@ -7,15 +6,15 @@ import Head from "next/head";
 
 export default function App({ Component, pageProps }) {
   return (
-    <ThemeProvider attribute="class">
+    <ThemeProvider attribute="class" defaultTheme="dark">
       <Head>
-        <link rel="icon" href="/MINE_LOGO.png" sizes="any"/>
-        <title>
-          Your Website Name
-        </title>
+        <title>Your Website Name</title>
       </Head>
-      <Navbar />
-      <Component {...pageProps} />
+      <div className="min-h-screen dark:bg-[#030014] dark:overflow-y-scroll dark:overflow-x-hidden">
+        <Navbar />
+        <Hero />
+        <Component {...pageProps} />
+      </div>
     </ThemeProvider>
   );
 }
