@@ -15,18 +15,19 @@ const Hero = () => {
 
   if (resolvedTheme === 'dark') {
     return (
-      <div className="absolute inset-0 z-0">
-      <div className="relative flex flex-col h-screen w-full" id="about-me">
+      <div className="relative  w-full h-full flex flex-col overflow-hidden" id="about-me">
+        <div className="absolute bottom-0 left-0 right-0">
         <video
           autoPlay
           muted
           loop
-          className="rotate-180 absolute  lg:top-[-236px] md:top-[-225px] sm:top-[-223px] min-[100px]:top-[-370px] h-full w-full left-0 object-cover"
+          className="rotate-180 h-full w-full object-cover"
         >
           <source src="/blackhole.webm" type="video/webm" />
         </video>
+
+        </div>
       </div>
-    </div>
     );
   } else {
     return null; // Return null if theme is not dark
