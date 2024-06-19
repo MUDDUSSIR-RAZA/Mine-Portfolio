@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }) {
   return (
     <ThemeProvider attribute="class" defaultTheme="dark">
       <Head>
-        <title>Your Website Name</title>
+        <title>MUDDUSSIR RAZA | Portfolio</title>
       </Head>
       <div className="dark:bg-[#030014] dark:overflow-y-hidden dark:overflow-x-hidden">
         <div className="h-20 w-full">
