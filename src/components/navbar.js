@@ -40,8 +40,6 @@ const Navbar = () => {
     ];
 
     return (
-        // <div className={`flex justify-end items-center w-full h-20 px-4 fixed nav ${mounted ? '' : 'bg-black text-white'}`}>
-        // <div className="flex justify-between z-50 items-center w-full h-20 px-4 bg-light-matte text-black dark:bg-dark-matte dark:text-light-matte fixed nav">
         <div className="flex justify-between z-50 items-center w-full h-20 px-4 bg-light-matte text-black dark:shadow-lg dark:shadow-[#2A0E61]/50 dark:bg-[#03001417] dark:backdrop-blur-md dark:text-light-matte fixed nav">
             <div>
                 <h1 className="text-5xl font-signature ml-2">
