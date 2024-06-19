@@ -42,7 +42,7 @@ const Navbar = () => {
     return (
         <div className="flex justify-between z-50 items-center w-full h-20 px-4 bg-light-matte text-black dark:shadow-lg dark:shadow-[#2A0E61]/50 dark:bg-[#03001417] dark:backdrop-blur-md dark:text-light-matte fixed nav">
             <div>
-                <h1 className="text-5xl font-signature ml-2">
+                <h1 className="text-5xl font-signature">
                     <a
                         className="link-underline link-underline-black"
                         href=""
@@ -80,7 +80,7 @@ const Navbar = () => {
 
                 <div
                     onClick={() => setNav(!nav)}
-                    className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
+                    className="cursor-pointer z-10 text-gray-500 md:hidden"
                 >
                     {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
                 </div>
