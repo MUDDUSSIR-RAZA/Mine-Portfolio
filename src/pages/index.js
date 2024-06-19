@@ -1,70 +1,110 @@
 import Hero from "@/components/helper/hero";
+import Navbar from "@/components/navbar";
 import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="relative pt-20 px-2 pb-2">
-
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-<h1>zsfdsaf</h1>
-
-    </div>
+      <div className="relative px-2 pb-2">
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+          <h1>zsfdsaf</h1>
+        </div>
   );
 }
